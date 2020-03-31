@@ -16,15 +16,17 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KnobControl"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of KnobControl."
+  spec.version      = "1.0.0"
+  spec.summary      = "KnobControl - desc"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "The knob control is a completely customizable widget that can be used in any iOS app. It also plays a little victory fanfare."
+  spec.description  = "<<-DESC
+                        here is description.
+                        DESC."
 
   spec.homepage     = "http://raywenderlich.com"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -63,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "12.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
