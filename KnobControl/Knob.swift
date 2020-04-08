@@ -148,11 +148,18 @@ extension Knob {
 
     renderer.updateBounds(bounds)
   }
-    public func getImage() -> UIImage {
-        let url = Bundle.main.url(forResource: "Settings", withExtension: "bundle")!
-        let path = Bundle.init(url: url)?.url(forResource: "UMS_url_video@2x", withExtension: "png")!
-
-        return UIImage.init(contentsOfFile: path!.path)!
+ public func getImage1() -> UIImage {
+         let url = Bundle.main.url(forResource: "Settings", withExtension: "bundle")!
+         let bundle = Bundle.init(url: url)!
+         let path = bundle.path(forResource: "icon/UMS_url_video@2x", ofType: "png")!
+         return UIImage.init(contentsOfFile: path)!
+     }
+     
+     public func getImage() -> UIImage {
+        let path = Bundle.main.path(forResource: "Settings", ofType: "bundle")!
+        let bundle = Bundle.init(path: path)!
+        let filePath = bundle.path(forResource: "icon/UMS_url_video@2x", ofType: "png")!
+        return UIImage.init(contentsOfFile: filePath)!
     }
 }
 

@@ -11,7 +11,6 @@
 		96208E7B243340E300C586A6 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96208E7A243340E300C586A6 /* Knob.swift */; };
 		96208E7D2433413A00C586A6 /* KnobRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96208E7C2433413A00C586A6 /* KnobRenderer.swift */; };
 		96208E7F243341CF00C586A6 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96208E7E243341CF00C586A6 /* RotationGestureRecognizer.swift */; };
-		966F21DF243DBBBD008D9D58 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 966F21DE243DBBBD008D9D58 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +20,6 @@
 		96208E7A243340E300C586A6 /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
 		96208E7C2433413A00C586A6 /* KnobRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobRenderer.swift; sourceTree = "<group>"; };
 		96208E7E243341CF00C586A6 /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
-		966F21DE243DBBBD008D9D58 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +57,6 @@
 				96208E73243340BA00C586A6 /* Info.plist */,
 				96208E7C2433413A00C586A6 /* KnobRenderer.swift */,
 				96208E7E243341CF00C586A6 /* RotationGestureRecognizer.swift */,
-				966F21DE243DBBBD008D9D58 /* Settings.bundle */,
 			);
 			path = KnobControl;
 			sourceTree = "<group>";
@@ -134,7 +131,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				966F21DF243DBBBD008D9D58 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
