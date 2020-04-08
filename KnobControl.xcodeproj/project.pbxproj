@@ -11,7 +11,7 @@
 		96208E7B243340E300C586A6 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96208E7A243340E300C586A6 /* Knob.swift */; };
 		96208E7D2433413A00C586A6 /* KnobRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96208E7C2433413A00C586A6 /* KnobRenderer.swift */; };
 		96208E7F243341CF00C586A6 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96208E7E243341CF00C586A6 /* RotationGestureRecognizer.swift */; };
-		966F21E6243DC670008D9D58 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966F21E5243DC670008D9D58 /* Bugly.framework */; };
+		966F21E7243DC896008D9D58 /* Bugly.framework in Sources */ = {isa = PBXBuildFile; fileRef = 966F21E5243DC670008D9D58 /* Bugly.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				966F21E6243DC670008D9D58 /* Bugly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966F21E7243DC896008D9D58 /* Bugly.framework in Sources */,
 				96208E7D2433413A00C586A6 /* KnobRenderer.swift in Sources */,
 				96208E7F243341CF00C586A6 /* RotationGestureRecognizer.swift in Sources */,
 				96208E7B243340E300C586A6 /* Knob.swift in Sources */,
