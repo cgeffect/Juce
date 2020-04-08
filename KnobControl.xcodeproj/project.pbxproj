@@ -11,6 +11,7 @@
 		96208E7B243340E300C586A6 /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96208E7A243340E300C586A6 /* Knob.swift */; };
 		96208E7D2433413A00C586A6 /* KnobRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96208E7C2433413A00C586A6 /* KnobRenderer.swift */; };
 		96208E7F243341CF00C586A6 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96208E7E243341CF00C586A6 /* RotationGestureRecognizer.swift */; };
+		966F21E6243DC670008D9D58 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966F21E5243DC670008D9D58 /* Bugly.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		96208E7A243340E300C586A6 /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
 		96208E7C2433413A00C586A6 /* KnobRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnobRenderer.swift; sourceTree = "<group>"; };
 		96208E7E243341CF00C586A6 /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
+		966F21E5243DC670008D9D58 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966F21E6243DC670008D9D58 /* Bugly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +55,7 @@
 		96208E71243340BA00C586A6 /* KnobControl */ = {
 			isa = PBXGroup;
 			children = (
+				966F21E4243DC670008D9D58 /* Bugly */,
 				96208E72243340BA00C586A6 /* KnobControl.h */,
 				96208E7A243340E300C586A6 /* Knob.swift */,
 				96208E73243340BA00C586A6 /* Info.plist */,
@@ -59,6 +63,14 @@
 				96208E7E243341CF00C586A6 /* RotationGestureRecognizer.swift */,
 			);
 			path = KnobControl;
+			sourceTree = "<group>";
+		};
+		966F21E4243DC670008D9D58 /* Bugly */ = {
+			isa = PBXGroup;
+			children = (
+				966F21E5243DC670008D9D58 /* Bugly.framework */,
+			);
+			path = Bugly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +291,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KnobControl/Bugly",
+				);
 				INFOPLIST_FILE = KnobControl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -307,6 +323,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KnobControl/Bugly",
+				);
 				INFOPLIST_FILE = KnobControl/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
