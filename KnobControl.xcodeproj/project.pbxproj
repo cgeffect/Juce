@@ -52,7 +52,6 @@
 		96208E71243340BA00C586A6 /* KnobControl */ = {
 			isa = PBXGroup;
 			children = (
-				966F21E4243DC670008D9D58 /* Bugly */,
 				96208E72243340BA00C586A6 /* KnobControl.h */,
 				96208E7A243340E300C586A6 /* Knob.swift */,
 				96208E73243340BA00C586A6 /* Info.plist */,
@@ -60,13 +59,6 @@
 				96208E7E243341CF00C586A6 /* RotationGestureRecognizer.swift */,
 			);
 			path = KnobControl;
-			sourceTree = "<group>";
-		};
-		966F21E4243DC670008D9D58 /* Bugly */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Bugly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
