@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "KnobControl"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "KnobControl - desc"
 
   spec.description  = "<<-DESC
