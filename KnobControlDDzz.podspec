@@ -2,15 +2,15 @@
 Pod::Spec.new do |spec|
 
 
-  spec.name         = "KnobControl"
+  spec.name         = "KnobControlDDzz"
   spec.version      = "1.1.0"
-  spec.summary      = "KnobControl - desc"
+  spec.summary      = "KnobControlDDzz - desc"
 
   spec.description  = "<<-DESC
                         here is description.
                         DESC."
 
-  spec.homepage     = "https://github.com/JasonSparrow/KnobControl"
+  spec.homepage     = "https://github.com/JasonSparrow/KnobControlDDzz"
 
   spec.license      = "MIT"
 
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
 
 
-    spec.source       = { :git => "https://github.com/JasonSparrow/KnobControl.git", :tag => spec.version }
+    spec.source       = { :git => "https://github.com/JasonSparrow/KnobControlDDzz.git", :tag => spec.version }
 
 
   spec.source_files  = "KnobControl"
