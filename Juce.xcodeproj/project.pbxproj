@@ -3,15 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9639D6032E18EEE6000861F9 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6022E18EEE6000861F9 /* AudioKit */; };
+		9639D6062E18EEFF000861F9 /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6052E18EEFF000861F9 /* AudioKitEX */; };
+		9639D6092E18EFDB000861F9 /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6082E18EFDB000861F9 /* AudioKitEX */; };
+		9639D60C2E18F01A000861F9 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D60B2E18F01A000861F9 /* AudioKitUI */; };
+		9639D60F2E18F035000861F9 /* Controls in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D60E2E18F035000861F9 /* Controls */; };
+		9639D6122E18F07F000861F9 /* DunneAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6112E18F07F000861F9 /* DunneAudioKit */; };
+		9639D6152E18F094000861F9 /* KissFFT in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6142E18F094000861F9 /* KissFFT */; };
+		9639D6182E18F0AD000861F9 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6172E18F0AD000861F9 /* Flow */; };
+		9639D61B2E18F0E1000861F9 /* Keyboard in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D61A2E18F0E1000861F9 /* Keyboard */; };
+		9639D61E2E18F0EE000861F9 /* Tonic in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D61D2E18F0EE000861F9 /* Tonic */; };
+		9639D6212E18F1A2000861F9 /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6202E18F1A2000861F9 /* SoundpipeAudioKit */; };
+		9639D6242E18F1C0000861F9 /* SporthAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6232E18F1C0000861F9 /* SporthAudioKit */; };
+		9639D6272E18F1E9000861F9 /* STKAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6262E18F1E9000861F9 /* STKAudioKit */; };
+		9639D62A2E18F218000861F9 /* Waveform in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6292E18F218000861F9 /* Waveform */; };
+		9639D62D2E18F22F000861F9 /* DevoloopAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D62C2E18F22F000861F9 /* DevoloopAudioKit */; };
+		9639D6332E18F275000861F9 /* Microtonality in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6322E18F275000861F9 /* Microtonality */; };
+		9639D6362E18F2CE000861F9 /* PianoRoll in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6352E18F2CE000861F9 /* PianoRoll */; };
 		965D48D62E17DF5500DD3C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D48D52E17DF5500DD3C61 /* AppDelegate.swift */; };
 		965D48D82E17DF5500DD3C61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D48D72E17DF5500DD3C61 /* ViewController.swift */; };
 		965D48DA2E17DF5600DD3C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965D48D92E17DF5600DD3C61 /* Assets.xcassets */; };
 		965D48DD2E17DF5600DD3C61 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 965D48DC2E17DF5600DD3C61 /* Base */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9639D4822E18C4D6000861F9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		965D48D22E17DF5500DD3C61 /* Juce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juce.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,6 +57,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9639D61B2E18F0E1000861F9 /* Keyboard in Frameworks */,
+				9639D6092E18EFDB000861F9 /* AudioKitEX in Frameworks */,
+				9639D6032E18EEE6000861F9 /* AudioKit in Frameworks */,
+				9639D6362E18F2CE000861F9 /* PianoRoll in Frameworks */,
+				9639D6332E18F275000861F9 /* Microtonality in Frameworks */,
+				9639D60C2E18F01A000861F9 /* AudioKitUI in Frameworks */,
+				9639D6242E18F1C0000861F9 /* SporthAudioKit in Frameworks */,
+				9639D62A2E18F218000861F9 /* Waveform in Frameworks */,
+				9639D6152E18F094000861F9 /* KissFFT in Frameworks */,
+				9639D62D2E18F22F000861F9 /* DevoloopAudioKit in Frameworks */,
+				9639D6182E18F0AD000861F9 /* Flow in Frameworks */,
+				9639D60F2E18F035000861F9 /* Controls in Frameworks */,
+				9639D6062E18EEFF000861F9 /* AudioKitEX in Frameworks */,
+				9639D61E2E18F0EE000861F9 /* Tonic in Frameworks */,
+				9639D6212E18F1A2000861F9 /* SoundpipeAudioKit in Frameworks */,
+				9639D6272E18F1E9000861F9 /* STKAudioKit in Frameworks */,
+				9639D6122E18F07F000861F9 /* DunneAudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +118,32 @@
 				965D48CE2E17DF5500DD3C61 /* Sources */,
 				965D48CF2E17DF5500DD3C61 /* Frameworks */,
 				965D48D02E17DF5500DD3C61 /* Resources */,
+				9639D4822E18C4D6000861F9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Juce;
+			packageProductDependencies = (
+				9639D6022E18EEE6000861F9 /* AudioKit */,
+				9639D6052E18EEFF000861F9 /* AudioKitEX */,
+				9639D6082E18EFDB000861F9 /* AudioKitEX */,
+				9639D60B2E18F01A000861F9 /* AudioKitUI */,
+				9639D60E2E18F035000861F9 /* Controls */,
+				9639D6112E18F07F000861F9 /* DunneAudioKit */,
+				9639D6142E18F094000861F9 /* KissFFT */,
+				9639D6172E18F0AD000861F9 /* Flow */,
+				9639D61A2E18F0E1000861F9 /* Keyboard */,
+				9639D61D2E18F0EE000861F9 /* Tonic */,
+				9639D6202E18F1A2000861F9 /* SoundpipeAudioKit */,
+				9639D6232E18F1C0000861F9 /* SporthAudioKit */,
+				9639D6262E18F1E9000861F9 /* STKAudioKit */,
+				9639D6292E18F218000861F9 /* Waveform */,
+				9639D62C2E18F22F000861F9 /* DevoloopAudioKit */,
+				9639D6322E18F275000861F9 /* Microtonality */,
+				9639D6352E18F2CE000861F9 /* PianoRoll */,
+			);
 			productName = Juce;
 			productReference = 965D48D22E17DF5500DD3C61 /* Juce.app */;
 			productType = "com.apple.product-type.application";
@@ -105,6 +172,24 @@
 				Base,
 			);
 			mainGroup = 965D48C92E17DF5500DD3C61;
+			packageReferences = (
+				9639D6012E18EEE6000861F9 /* XCLocalSwiftPackageReference "package/AudioKit" */,
+				9639D6072E18EFDB000861F9 /* XCLocalSwiftPackageReference "package/AudioKitEX" */,
+				9639D60A2E18F01A000861F9 /* XCLocalSwiftPackageReference "package/AudioKitUI" */,
+				9639D60D2E18F035000861F9 /* XCLocalSwiftPackageReference "package/Controls" */,
+				9639D6102E18F07F000861F9 /* XCLocalSwiftPackageReference "package/DunneAudioKit" */,
+				9639D6132E18F094000861F9 /* XCLocalSwiftPackageReference "package/KissFFT" */,
+				9639D6162E18F0AD000861F9 /* XCLocalSwiftPackageReference "package/Flow" */,
+				9639D6192E18F0E1000861F9 /* XCLocalSwiftPackageReference "package/Keyboard" */,
+				9639D61C2E18F0EE000861F9 /* XCLocalSwiftPackageReference "package/Tonic" */,
+				9639D61F2E18F1A2000861F9 /* XCLocalSwiftPackageReference "package/SoundpipeAudioKit" */,
+				9639D6222E18F1C0000861F9 /* XCLocalSwiftPackageReference "package/SporthAudioKit" */,
+				9639D6252E18F1E9000861F9 /* XCLocalSwiftPackageReference "package/STKAudioKit" */,
+				9639D6282E18F218000861F9 /* XCLocalSwiftPackageReference "package/Waveform" */,
+				9639D62B2E18F22F000861F9 /* XCLocalSwiftPackageReference "package/DevoloopAudioKit" */,
+				9639D6312E18F275000861F9 /* XCLocalSwiftPackageReference "package/Microtonality" */,
+				9639D6342E18F2CE000861F9 /* XCLocalSwiftPackageReference "package/PianoRoll" */,
+			);
 			productRefGroup = 965D48D32E17DF5500DD3C61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -279,6 +364,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HXAGUHJB6V;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Juce",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -306,6 +395,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HXAGUHJB6V;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Juce",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -344,6 +437,144 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		9639D6012E18EEE6000861F9 /* XCLocalSwiftPackageReference "package/AudioKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/AudioKit;
+		};
+		9639D6072E18EFDB000861F9 /* XCLocalSwiftPackageReference "package/AudioKitEX" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/AudioKitEX;
+		};
+		9639D60A2E18F01A000861F9 /* XCLocalSwiftPackageReference "package/AudioKitUI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/AudioKitUI;
+		};
+		9639D60D2E18F035000861F9 /* XCLocalSwiftPackageReference "package/Controls" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/Controls;
+		};
+		9639D6102E18F07F000861F9 /* XCLocalSwiftPackageReference "package/DunneAudioKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/DunneAudioKit;
+		};
+		9639D6132E18F094000861F9 /* XCLocalSwiftPackageReference "package/KissFFT" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/KissFFT;
+		};
+		9639D6162E18F0AD000861F9 /* XCLocalSwiftPackageReference "package/Flow" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/Flow;
+		};
+		9639D6192E18F0E1000861F9 /* XCLocalSwiftPackageReference "package/Keyboard" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/Keyboard;
+		};
+		9639D61C2E18F0EE000861F9 /* XCLocalSwiftPackageReference "package/Tonic" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/Tonic;
+		};
+		9639D61F2E18F1A2000861F9 /* XCLocalSwiftPackageReference "package/SoundpipeAudioKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/SoundpipeAudioKit;
+		};
+		9639D6222E18F1C0000861F9 /* XCLocalSwiftPackageReference "package/SporthAudioKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/SporthAudioKit;
+		};
+		9639D6252E18F1E9000861F9 /* XCLocalSwiftPackageReference "package/STKAudioKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/STKAudioKit;
+		};
+		9639D6282E18F218000861F9 /* XCLocalSwiftPackageReference "package/Waveform" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/Waveform;
+		};
+		9639D62B2E18F22F000861F9 /* XCLocalSwiftPackageReference "package/DevoloopAudioKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/DevoloopAudioKit;
+		};
+		9639D6312E18F275000861F9 /* XCLocalSwiftPackageReference "package/Microtonality" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/Microtonality;
+		};
+		9639D6342E18F2CE000861F9 /* XCLocalSwiftPackageReference "package/PianoRoll" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = package/PianoRoll;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9639D6022E18EEE6000861F9 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioKit;
+		};
+		9639D6052E18EEFF000861F9 /* AudioKitEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioKitEX;
+		};
+		9639D6082E18EFDB000861F9 /* AudioKitEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioKitEX;
+		};
+		9639D60B2E18F01A000861F9 /* AudioKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioKitUI;
+		};
+		9639D60E2E18F035000861F9 /* Controls */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Controls;
+		};
+		9639D6112E18F07F000861F9 /* DunneAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DunneAudioKit;
+		};
+		9639D6142E18F094000861F9 /* KissFFT */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KissFFT;
+		};
+		9639D6172E18F0AD000861F9 /* Flow */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Flow;
+		};
+		9639D61A2E18F0E1000861F9 /* Keyboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Keyboard;
+		};
+		9639D61D2E18F0EE000861F9 /* Tonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Tonic;
+		};
+		9639D6202E18F1A2000861F9 /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SoundpipeAudioKit;
+		};
+		9639D6232E18F1C0000861F9 /* SporthAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SporthAudioKit;
+		};
+		9639D6262E18F1E9000861F9 /* STKAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = STKAudioKit;
+		};
+		9639D6292E18F218000861F9 /* Waveform */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Waveform;
+		};
+		9639D62C2E18F22F000861F9 /* DevoloopAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DevoloopAudioKit;
+		};
+		9639D6322E18F275000861F9 /* Microtonality */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Microtonality;
+		};
+		9639D6352E18F2CE000861F9 /* PianoRoll */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PianoRoll;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 965D48CA2E17DF5500DD3C61 /* Project object */;
 }

@@ -6,12 +6,15 @@
 //
 
 import Cocoa
+import AudioKit
 
 class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let engine = AudioEngine()
+        print(engine)
         // Do any additional setup after loading the view.
     }
 
