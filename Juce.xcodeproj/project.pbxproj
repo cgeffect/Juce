@@ -43,6 +43,12 @@
 		9639D65C2E18F71E000861F9 /* closed_hi_hat_F#1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6492E18F71E000861F9 /* closed_hi_hat_F#1.wav */; };
 		9639D65D2E18F71E000861F9 /* sqr.SFZ in Resources */ = {isa = PBXBuildFile; fileRef = 9639D64A2E18F71E000861F9 /* sqr.SFZ */; };
 		9639D65F2E18F724000861F9 /* audio3D.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9639D65E2E18F724000861F9 /* audio3D.scnassets */; };
+		9639D7C62E18FB59000861F9 /* AdvancedAudioKitExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639D7C32E18FB59000861F9 /* AdvancedAudioKitExamples.swift */; };
+		9639D7C72E18FB59000861F9 /* AudioKitExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639D7C42E18FB59000861F9 /* AudioKitExamples.swift */; };
+		9639D7CA2E18FE29000861F9 /* AudioPlayerWithWaveform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639D7C82E18FE29000861F9 /* AudioPlayerWithWaveform.swift */; };
+		9639D7CD2E190149000861F9 /* EqualizerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639D7CC2E190149000861F9 /* EqualizerExample.swift */; };
+		9639D7CF2E190419000861F9 /* FFTSpectrumExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639D7CE2E190419000861F9 /* FFTSpectrumExample.swift */; };
+		9639D7D12E19097A000861F9 /* SpatialAudioExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639D7D02E190979000861F9 /* SpatialAudioExample.swift */; };
 		965D48D62E17DF5500DD3C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D48D52E17DF5500DD3C61 /* AppDelegate.swift */; };
 		965D48D82E17DF5500DD3C61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D48D72E17DF5500DD3C61 /* ViewController.swift */; };
 		965D48DA2E17DF5600DD3C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965D48D92E17DF5600DD3C61 /* Assets.xcassets */; };
@@ -82,6 +88,12 @@
 		9639D6492E18F71E000861F9 /* closed_hi_hat_F#1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "closed_hi_hat_F#1.wav"; sourceTree = "<group>"; };
 		9639D64A2E18F71E000861F9 /* sqr.SFZ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sqr.SFZ; sourceTree = "<group>"; };
 		9639D65E2E18F724000861F9 /* audio3D.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = audio3D.scnassets; sourceTree = "<group>"; };
+		9639D7C32E18FB59000861F9 /* AdvancedAudioKitExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedAudioKitExamples.swift; sourceTree = "<group>"; };
+		9639D7C42E18FB59000861F9 /* AudioKitExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioKitExamples.swift; sourceTree = "<group>"; };
+		9639D7C82E18FE29000861F9 /* AudioPlayerWithWaveform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerWithWaveform.swift; sourceTree = "<group>"; };
+		9639D7CC2E190149000861F9 /* EqualizerExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqualizerExample.swift; sourceTree = "<group>"; };
+		9639D7CE2E190419000861F9 /* FFTSpectrumExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFTSpectrumExample.swift; sourceTree = "<group>"; };
+		9639D7D02E190979000861F9 /* SpatialAudioExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpatialAudioExample.swift; sourceTree = "<group>"; };
 		965D48D22E17DF5500DD3C61 /* Juce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		965D48D52E17DF5500DD3C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		965D48D72E17DF5500DD3C61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -159,6 +171,19 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		9639D7C52E18FB59000861F9 /* Cookbook */ = {
+			isa = PBXGroup;
+			children = (
+				9639D7D02E190979000861F9 /* SpatialAudioExample.swift */,
+				9639D7CE2E190419000861F9 /* FFTSpectrumExample.swift */,
+				9639D7CC2E190149000861F9 /* EqualizerExample.swift */,
+				9639D7C82E18FE29000861F9 /* AudioPlayerWithWaveform.swift */,
+				9639D7C32E18FB59000861F9 /* AdvancedAudioKitExamples.swift */,
+				9639D7C42E18FB59000861F9 /* AudioKitExamples.swift */,
+			);
+			path = Cookbook;
+			sourceTree = "<group>";
+		};
 		965D48C92E17DF5500DD3C61 = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +203,7 @@
 		965D48D42E17DF5500DD3C61 /* Juce */ = {
 			isa = PBXGroup;
 			children = (
+				9639D7C52E18FB59000861F9 /* Cookbook */,
 				965D48DE2E17DF5600DD3C61 /* Juce.entitlements */,
 				9639D65E2E18F724000861F9 /* audio3D.scnassets */,
 				965D48D52E17DF5500DD3C61 /* AppDelegate.swift */,
@@ -316,8 +342,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9639D7D12E19097A000861F9 /* SpatialAudioExample.swift in Sources */,
 				965D48D82E17DF5500DD3C61 /* ViewController.swift in Sources */,
 				965D48D62E17DF5500DD3C61 /* AppDelegate.swift in Sources */,
+				9639D7CF2E190419000861F9 /* FFTSpectrumExample.swift in Sources */,
+				9639D7C72E18FB59000861F9 /* AudioKitExamples.swift in Sources */,
+				9639D7CD2E190149000861F9 /* EqualizerExample.swift in Sources */,
+				9639D7C62E18FB59000861F9 /* AdvancedAudioKitExamples.swift in Sources */,
+				9639D7CA2E18FE29000861F9 /* AudioPlayerWithWaveform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
