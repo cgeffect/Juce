@@ -24,6 +24,25 @@
 		9639D62D2E18F22F000861F9 /* DevoloopAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D62C2E18F22F000861F9 /* DevoloopAudioKit */; };
 		9639D6332E18F275000861F9 /* Microtonality in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6322E18F275000861F9 /* Microtonality */; };
 		9639D6362E18F2CE000861F9 /* PianoRoll in Frameworks */ = {isa = PBXBuildFile; productRef = 9639D6352E18F2CE000861F9 /* PianoRoll */; };
+		9639D64C2E18F71E000861F9 /* noise-wht2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6372E18F71E000861F9 /* noise-wht2.wav */; };
+		9639D64D2E18F71E000861F9 /* saw220-ana1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6382E18F71E000861F9 /* saw220-ana1.wav */; };
+		9639D64E2E18F71E000861F9 /* saw220.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6392E18F71E000861F9 /* saw220.wav */; };
+		9639D64F2E18F71E000861F9 /* sqr220.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9639D63A2E18F71E000861F9 /* sqr220.wav */; };
+		9639D6502E18F71E000861F9 /* drumSimp.exs in Resources */ = {isa = PBXBuildFile; fileRef = 9639D63C2E18F71E000861F9 /* drumSimp.exs */; };
+		9639D6512E18F71E000861F9 /* funkyWow.exs in Resources */ = {isa = PBXBuildFile; fileRef = 9639D63D2E18F71E000861F9 /* funkyWow.exs */; };
+		9639D6522E18F71E000861F9 /* nes-syn1.exs in Resources */ = {isa = PBXBuildFile; fileRef = 9639D63E2E18F71E000861F9 /* nes-syn1.exs */; };
+		9639D6532E18F71E000861F9 /* noisyRez.exs in Resources */ = {isa = PBXBuildFile; fileRef = 9639D63F2E18F71E000861F9 /* noisyRez.exs */; };
+		9639D6542E18F71E000861F9 /* sawPad1.exs in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6402E18F71E000861F9 /* sawPad1.exs */; };
+		9639D6552E18F71E000861F9 /* sawPiano1.exs in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6412E18F71E000861F9 /* sawPiano1.exs */; };
+		9639D6562E18F71E000861F9 /* sqrTone1.exs in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6422E18F71E000861F9 /* sqrTone1.exs */; };
+		9639D6572E18F71E000861F9 /* cheeb-bd.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6442E18F71E000861F9 /* cheeb-bd.wav */; };
+		9639D6582E18F71E000861F9 /* cheeb-ch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6452E18F71E000861F9 /* cheeb-ch.wav */; };
+		9639D6592E18F71E000861F9 /* cheeb-hat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6462E18F71E000861F9 /* cheeb-hat.wav */; };
+		9639D65A2E18F71E000861F9 /* cheeb-snr.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6472E18F71E000861F9 /* cheeb-snr.wav */; };
+		9639D65B2E18F71E000861F9 /* cheeb-stick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6482E18F71E000861F9 /* cheeb-stick.wav */; };
+		9639D65C2E18F71E000861F9 /* closed_hi_hat_F#1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9639D6492E18F71E000861F9 /* closed_hi_hat_F#1.wav */; };
+		9639D65D2E18F71E000861F9 /* sqr.SFZ in Resources */ = {isa = PBXBuildFile; fileRef = 9639D64A2E18F71E000861F9 /* sqr.SFZ */; };
+		9639D65F2E18F724000861F9 /* audio3D.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9639D65E2E18F724000861F9 /* audio3D.scnassets */; };
 		965D48D62E17DF5500DD3C61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D48D52E17DF5500DD3C61 /* AppDelegate.swift */; };
 		965D48D82E17DF5500DD3C61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965D48D72E17DF5500DD3C61 /* ViewController.swift */; };
 		965D48DA2E17DF5600DD3C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965D48D92E17DF5600DD3C61 /* Assets.xcassets */; };
@@ -44,6 +63,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9639D6372E18F71E000861F9 /* noise-wht2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "noise-wht2.wav"; sourceTree = "<group>"; };
+		9639D6382E18F71E000861F9 /* saw220-ana1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "saw220-ana1.wav"; sourceTree = "<group>"; };
+		9639D6392E18F71E000861F9 /* saw220.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = saw220.wav; sourceTree = "<group>"; };
+		9639D63A2E18F71E000861F9 /* sqr220.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sqr220.wav; sourceTree = "<group>"; };
+		9639D63C2E18F71E000861F9 /* drumSimp.exs */ = {isa = PBXFileReference; lastKnownFileType = file; path = drumSimp.exs; sourceTree = "<group>"; };
+		9639D63D2E18F71E000861F9 /* funkyWow.exs */ = {isa = PBXFileReference; lastKnownFileType = file; path = funkyWow.exs; sourceTree = "<group>"; };
+		9639D63E2E18F71E000861F9 /* nes-syn1.exs */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nes-syn1.exs"; sourceTree = "<group>"; };
+		9639D63F2E18F71E000861F9 /* noisyRez.exs */ = {isa = PBXFileReference; lastKnownFileType = file; path = noisyRez.exs; sourceTree = "<group>"; };
+		9639D6402E18F71E000861F9 /* sawPad1.exs */ = {isa = PBXFileReference; lastKnownFileType = file; path = sawPad1.exs; sourceTree = "<group>"; };
+		9639D6412E18F71E000861F9 /* sawPiano1.exs */ = {isa = PBXFileReference; lastKnownFileType = file; path = sawPiano1.exs; sourceTree = "<group>"; };
+		9639D6422E18F71E000861F9 /* sqrTone1.exs */ = {isa = PBXFileReference; lastKnownFileType = file; path = sqrTone1.exs; sourceTree = "<group>"; };
+		9639D6442E18F71E000861F9 /* cheeb-bd.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cheeb-bd.wav"; sourceTree = "<group>"; };
+		9639D6452E18F71E000861F9 /* cheeb-ch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cheeb-ch.wav"; sourceTree = "<group>"; };
+		9639D6462E18F71E000861F9 /* cheeb-hat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cheeb-hat.wav"; sourceTree = "<group>"; };
+		9639D6472E18F71E000861F9 /* cheeb-snr.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cheeb-snr.wav"; sourceTree = "<group>"; };
+		9639D6482E18F71E000861F9 /* cheeb-stick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "cheeb-stick.wav"; sourceTree = "<group>"; };
+		9639D6492E18F71E000861F9 /* closed_hi_hat_F#1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "closed_hi_hat_F#1.wav"; sourceTree = "<group>"; };
+		9639D64A2E18F71E000861F9 /* sqr.SFZ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sqr.SFZ; sourceTree = "<group>"; };
+		9639D65E2E18F724000861F9 /* audio3D.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = audio3D.scnassets; sourceTree = "<group>"; };
 		965D48D22E17DF5500DD3C61 /* Juce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		965D48D52E17DF5500DD3C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		965D48D72E17DF5500DD3C61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +118,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9639D63B2E18F71E000861F9 /* basicSamples */ = {
+			isa = PBXGroup;
+			children = (
+				9639D6372E18F71E000861F9 /* noise-wht2.wav */,
+				9639D6382E18F71E000861F9 /* saw220-ana1.wav */,
+				9639D6392E18F71E000861F9 /* saw220.wav */,
+				9639D63A2E18F71E000861F9 /* sqr220.wav */,
+			);
+			path = basicSamples;
+			sourceTree = "<group>";
+		};
+		9639D6432E18F71E000861F9 /* Sampler Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				9639D63C2E18F71E000861F9 /* drumSimp.exs */,
+				9639D63D2E18F71E000861F9 /* funkyWow.exs */,
+				9639D63E2E18F71E000861F9 /* nes-syn1.exs */,
+				9639D63F2E18F71E000861F9 /* noisyRez.exs */,
+				9639D6402E18F71E000861F9 /* sawPad1.exs */,
+				9639D6412E18F71E000861F9 /* sawPiano1.exs */,
+				9639D6422E18F71E000861F9 /* sqrTone1.exs */,
+			);
+			path = "Sampler Instruments";
+			sourceTree = "<group>";
+		};
+		9639D64B2E18F71E000861F9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9639D63B2E18F71E000861F9 /* basicSamples */,
+				9639D6432E18F71E000861F9 /* Sampler Instruments */,
+				9639D6442E18F71E000861F9 /* cheeb-bd.wav */,
+				9639D6452E18F71E000861F9 /* cheeb-ch.wav */,
+				9639D6462E18F71E000861F9 /* cheeb-hat.wav */,
+				9639D6472E18F71E000861F9 /* cheeb-snr.wav */,
+				9639D6482E18F71E000861F9 /* cheeb-stick.wav */,
+				9639D6492E18F71E000861F9 /* closed_hi_hat_F#1.wav */,
+				9639D64A2E18F71E000861F9 /* sqr.SFZ */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		965D48C92E17DF5500DD3C61 = {
 			isa = PBXGroup;
 			children = (
@@ -99,11 +178,13 @@
 		965D48D42E17DF5500DD3C61 /* Juce */ = {
 			isa = PBXGroup;
 			children = (
+				965D48DE2E17DF5600DD3C61 /* Juce.entitlements */,
+				9639D65E2E18F724000861F9 /* audio3D.scnassets */,
 				965D48D52E17DF5500DD3C61 /* AppDelegate.swift */,
 				965D48D72E17DF5500DD3C61 /* ViewController.swift */,
 				965D48D92E17DF5600DD3C61 /* Assets.xcassets */,
 				965D48DB2E17DF5600DD3C61 /* Main.storyboard */,
-				965D48DE2E17DF5600DD3C61 /* Juce.entitlements */,
+				9639D64B2E18F71E000861F9 /* Sounds */,
 			);
 			path = Juce;
 			sourceTree = "<group>";
@@ -204,8 +285,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9639D6522E18F71E000861F9 /* nes-syn1.exs in Resources */,
+				9639D65B2E18F71E000861F9 /* cheeb-stick.wav in Resources */,
+				9639D6532E18F71E000861F9 /* noisyRez.exs in Resources */,
+				9639D65F2E18F724000861F9 /* audio3D.scnassets in Resources */,
+				9639D6552E18F71E000861F9 /* sawPiano1.exs in Resources */,
+				9639D64F2E18F71E000861F9 /* sqr220.wav in Resources */,
+				9639D65A2E18F71E000861F9 /* cheeb-snr.wav in Resources */,
+				9639D64D2E18F71E000861F9 /* saw220-ana1.wav in Resources */,
+				9639D6502E18F71E000861F9 /* drumSimp.exs in Resources */,
 				965D48DA2E17DF5600DD3C61 /* Assets.xcassets in Resources */,
+				9639D6512E18F71E000861F9 /* funkyWow.exs in Resources */,
+				9639D65D2E18F71E000861F9 /* sqr.SFZ in Resources */,
+				9639D64C2E18F71E000861F9 /* noise-wht2.wav in Resources */,
+				9639D65C2E18F71E000861F9 /* closed_hi_hat_F#1.wav in Resources */,
+				9639D6562E18F71E000861F9 /* sqrTone1.exs in Resources */,
+				9639D6592E18F71E000861F9 /* cheeb-hat.wav in Resources */,
+				9639D6582E18F71E000861F9 /* cheeb-ch.wav in Resources */,
 				965D48DD2E17DF5600DD3C61 /* Base in Resources */,
+				9639D6542E18F71E000861F9 /* sawPad1.exs in Resources */,
+				9639D6572E18F71E000861F9 /* cheeb-bd.wav in Resources */,
+				9639D64E2E18F71E000861F9 /* saw220.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
